@@ -22,7 +22,7 @@ def load_artifacts():
     with open("New_RFmodel.pkl", "rb") as f:
         model = pickle.load(f)
 
-    with open("New_scalar.pkl", "rb") as f:
+    with open("New_Scalar.pkl", "rb") as f:
         scaler = pickle.load(f)
 
     return model, scaler
